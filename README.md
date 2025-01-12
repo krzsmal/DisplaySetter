@@ -40,7 +40,19 @@ To fully automate the process of running DisplaySetter, follow these steps:
 With these steps, `RunDisplaySetter.ps1` will automatically run on startup, ensuring `DisplaySetter.exe` is triggered when an HDMI device connects.
 
 ## Example Configurations
-TODO: Add example configurations for different monitor layouts.
+The `x` and `y` coordinates refer to the position of the primary monitor, which is labeled as 1 in the images below.
+
+| x = 0 <br> y = 0                     | x = 1921 <br> y = 0                        |
+|--------------------------------------|--------------------------------------------|
+| ![x = 0 y = 0](./examples/x0_y0.png) | ![x = 1921 y = 0](./examples/x1921_y0.png) |
+
+| x = 1920 <br> y = 1081                           | x = 1920 <br> y = -1081                            |
+|--------------------------------------------------|----------------------------------------------------|
+| ![x = 1920 y = 1081](./examples/x1920_y1081.png) | ![x = 1920 y = -1081](./examples/x1920_y-1081.png) |
+
+| x = 3841 <br> y = -1081                           | x = 0 <br> y = -930                            |
+|---------------------------------------------------|------------------------------------------------|
+| ![x = 3841 y = 1081](./examples/x3841_y-1081.png) | ![x = 0 y = -930](./examples/x0_y-930.png)     |
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
